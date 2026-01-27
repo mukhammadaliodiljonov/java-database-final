@@ -96,7 +96,7 @@
 
 
         function getReviews(storeId, productId) {
-            url = `URL/reviews/${storeId}/${productId}`;
+            url = `http://localhost:8080/reviews/${storeId}/${productId}`;
             fetch(url, {
                 method: "GET",
                 headers: { "content-type": "application/json" }
